@@ -11,7 +11,12 @@ var users = require('./routes/users');
 
 var app = express();
 
-fs.readFile('./views/footer.html', 'utf8', function (err, data) {
+
+app.locals.fullName = "Sam Persian"
+app.locals.email = "samuel.persian@gmail.com"
+
+//make my header html file contents a local string
+fs.readFile('./views/footer.hbs', 'utf8', function (err, data) {
   if (err) throw err;
   app.locals.footer = data;
 });

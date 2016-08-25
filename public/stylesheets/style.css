@@ -1,5 +1,5 @@
 main {
-  padding: 50px;
+  padding: 40px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
@@ -7,26 +7,23 @@ a {
   color: #00B7FF;
 }
 
-.myFooter {
-  position: fixed;
-  bottom: 0px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: black;
-  padding: 10px 50px 10px 50px;
-}
-
-.myLinks {
-  padding: 0px;
+.myTitle {
   margin: 0px;
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  font-size: 1.5em;
+  color: grey;
 }
 
-.aLink {
-  margin: 0px 15px 0px 15px;
+.nameRow {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
 }
+
+.myName {
+  font-size: 3.5em;
+  padding-top: 10px;
+}
+/*.myEmail {
+  font-size: 1.5vh;
+  padding-bottom: 7px;
+}*/

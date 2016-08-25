@@ -1,0 +1,24 @@
+.myFooter {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 50px 10px 50px;
+}
+
+.myLinks {
+  padding: 0px 0px 5px 0px;
+  margin: 0px 0px 10px 0px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px dotted black;
+  border-radius: 10px;
+}
+
+.aLink {
+  margin: 0px 15px 0px 15px;
+}
