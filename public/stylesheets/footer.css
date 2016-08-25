@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px 50px 10px 50px;
+  padding: 10px 50px 5px 50px;
 }
 
 .myLinks {
@@ -21,4 +21,8 @@
 
 .aLink {
   margin: 0px 15px 0px 15px;
+}
+
+.aLink a {
+  color: orange;
 }

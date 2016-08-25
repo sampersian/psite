@@ -1,5 +1,14 @@
+html {
+  background-image: url('/images/background.jpg');
+  background-size: 100%;
+}
+
+body {
+  background: none;
+}
+
 main {
-  padding: 40px;
+  padding: 3vw;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
@@ -7,10 +16,15 @@ a {
   color: #00B7FF;
 }
 
-.myTitle {
+.jumbotron {
+  background: none;
+  padding: 0px 10px;
+}
+
+.jumbotron .myTitle {
   margin: 0px;
-  font-size: 1.5em;
-  color: grey;
+  font-size: 16px;
+  color: #3E5641;
 }
 
 .nameRow {
@@ -20,10 +34,28 @@ a {
 }
 
 .myName {
-  font-size: 3.5em;
+  font-size: 4em;
+  font-weight: bold;
   padding-top: 10px;
+  color: #006992;
 }
 /*.myEmail {
   font-size: 1.5vh;
   padding-bottom: 7px;
 }*/
+
+.buttonRow {
+  margin-top: 0px;
+  display: flex;
+}
+
+.myBtn {
+  color: black;
+  background-color: rgba(0,0,0,0.3);
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.myBtn:not(:first-child) {
+  margin-left: 15px;
+}
