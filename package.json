@@ -1,3 +1,5 @@
+"use strict";
+
 {
   "name": "personal-site",
   "version": "0.0.0",
