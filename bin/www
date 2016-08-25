@@ -2,7 +2,6 @@
 /**
  * Module dependencies.
  */
-require('node-strict');
 var app = require('../app');
 var debug = require('debug')('personal-site:server');
 var http = require('http');

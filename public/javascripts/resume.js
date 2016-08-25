@@ -1,3 +1,4 @@
+"use strict";
 let myResume = {
   name: "Sam Persian",
   email: "samuel.persian@gmail.com",
