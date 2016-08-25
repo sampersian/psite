@@ -8,7 +8,7 @@ body {
 }
 
 main {
-  padding: 3vw;
+  padding: 1vw 3vw;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
@@ -17,14 +17,16 @@ a {
 }
 
 .jumbotron {
-  background: none;
-  padding: 0px 10px;
+  background-color: rgba(255,255,255,0.7);
+  padding: 15px;
+  border-radius: 10px;
 }
 
 .jumbotron .myTitle {
   margin: 0px;
-  font-size: 16px;
-  color: #3E5641;
+  font-size: 18px;
+  color: darkorange;
+  font-weight: bold;
 }
 
 .nameRow {
@@ -37,7 +39,7 @@ a {
   font-size: 4em;
   font-weight: bold;
   padding-top: 10px;
-  color: #006992;
+  color: dodgerblue;
 }
 /*.myEmail {
   font-size: 1.5vh;
@@ -50,12 +52,48 @@ a {
 }
 
 .myBtn {
-  color: black;
-  background-color: rgba(0,0,0,0.3);
+  color: white;
+  background-color: rgba(0,0,0,0.6);
   font-size: 14px;
   margin-top: 15px;
+  border-radius: 5px;
 }
 
 .myBtn:not(:first-child) {
   margin-left: 15px;
+}
+
+.stage {
+  background: rgba(0,0,0,0.5);
+  padding: 5px 15px;
+  border-radius: 30px;
+}
+
+.act {
+  display: none;
+  padding: 10px;
+}
+
+.act .actName {
+  margin: 0px;
+  text-align: center;
+  color: black;
+}
+
+.act .actHolder {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.act .actHolder .myBioPic {
+  border-radius: 50px;
+}
+
+.act .actHolder .actContent {
+  padding: 20px 40px;
+}
+
+.act .actHolder .actContent pre{
+  word-wrap: normal;
+  width: auto;
 }

@@ -1,18 +1,32 @@
 <main>
-  <div class='jumbotron'>
-    <p class='myTitle'>Full Stack Web Developer</p>
-    <div class='nameRow'>
-      <span class='myName'>{{fullName}}</span>
-      <!-- <span class='myEmail'>{{email}}</span> -->
-    </div>
-    <div class='buttonRow'>
-      <button class="btn myBtn" type="button" onclick='youreUp(portfolio)'>Portfolio</button>
-      <button class="btn myBtn" type="button" onclick='youreUp(demos)'>Demos</button>
-      <button class="btn myBtn"type="button" onclick='youreUp(resume)'>Resume</button>
-      <button class="btn myBtn"type="button" onclick='youreUp(contact)'>Contact</button>
-    </div>
-  </div>
+  {{{header}}}
   <div class='stage'>
-
+    <div class="act bio">
+      <h1 class='actName'>Bio</h1>
+      <div class='actHolder'>
+        <div class="card">
+          <img class="card-img-top myBioPic" src="/images/me.jpg" alt="My Picture">
+          <div class="card-block"> </div>
+        </div>
+        <div class='actContent'>
+          <h3>About Me</h3>
+          <p>
+            Hi! My name is Sam Persian. I am a full stack web developer currently living in Denver, Colorado.
+          </pre>
+        </div>
+      </div>
+    </div>
+    <div class="act portfolio">
+      <h1>Portfolio</h1>
+    </div>
+    <div class="act demos">
+      <h1>Demos</h1>
+    </div>
+    <div class="act resume">
+      <h1>Resume</h1>
+    </div>
+    <div class="act contact">
+      <h1>Contact Info</h1>
+    </div>
   </div>
 </main>
