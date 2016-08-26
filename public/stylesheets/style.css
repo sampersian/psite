@@ -97,3 +97,15 @@ a {
   word-wrap: normal;
   width: auto;
 }
+
+.project {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.projectImage {
+  border: 5px solid black;
+  height: 150px;
+  margin: 0px 20px 10px 20px;
+}
