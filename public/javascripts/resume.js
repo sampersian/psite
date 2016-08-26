@@ -1,5 +1,5 @@
 "use strict";
-let myResume = {
+var myResume = {
   name: "Sam Persian",
   email: "samuel.persian@gmail.com",
   education: {
@@ -22,7 +22,7 @@ let myResume = {
       stopped: 'Fall 2014',
       title: 'Intern - Store Operations'
     },
-    'Sports Authority': {
+    'Sports Authority 2': {
       started: 'Summer 2015',
       stopped: 'Fall 2015',
       title: 'Store Operations In Training'

@@ -7,9 +7,9 @@ router.use(cors());
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  let now = new Date();
+  var now = new Date();
   var ip = req.connection.remoteAddress;
-  let ua = req.get('User-Agent');
+  var ua = req.get('User-Agent');
   console.log("home page requested :: "+now+" by "+req.ip)
   res.render('index');
 });
