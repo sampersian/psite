@@ -4,10 +4,10 @@ var myResume = {
   email: "samuel.persian@gmail.com",
   education: {
     'Galvanize': {
-      started: 'Summer 2016',
-      stopped: 'Winter 2016',
-      major: 'Full Stack Web Development',
-      graduated: true
+      started: 'July 2016',
+      stopped: 'December 2016',
+      major: 'Full Stack Web Development Immersive',
+      graduated: false
     },
     'St. Johns University': {
       started: 'Fall 2011',

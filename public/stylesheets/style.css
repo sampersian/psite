@@ -20,6 +20,7 @@ a {
   background-color: rgba(255,255,255,0.7);
   padding: 15px;
   border-radius: 10px;
+  margin: 10px 20px;
 }
 
 .jumbotron .myTitle {
@@ -98,14 +99,65 @@ a {
   width: auto;
 }
 
-.project {
+.portfolio {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
+.project {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 10px;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.projectName,.projectDescription {
+  width: 100%;
+  text-align: center;
+}
+
+.projectGallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
 .projectImage {
   border: 5px solid black;
-  height: 150px;
+  height: 200px;
   margin: 0px 20px 10px 20px;
+}
+
+.leftSide {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 5%;
+}
+
+.imageViewer {
+  height: 100%;
+  margin: 0px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.rightSide {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 5%;
+}
+
+.hidden {
+  display: none;
 }

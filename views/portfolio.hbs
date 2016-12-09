@@ -1,10 +1,25 @@
 <main>
-  {{{header}}}
   <h1>My Portfolio</h1>
-  <div class="project">
-    <img src="/images/shopHockey/home.jpg" class="projectImage">
-    <img src="/images/shopHockey/category.jpg" class="projectImage">
-    <img src="/images/shopHockey/search.jpg" class="projectImage">
-    <img src="/images/shopHockey/cart.jpg" class="projectImage">
+
+  <div class="portfolio">
+    <div class="project">
+      <h3 class='projectName'>shopHockey</h3>
+      <h5 class='projectDescription'>Shop for hockey products and accessories on an online store.</h5>
+      <div class="projectGallery">
+        <div class='leftSide'>
+          <button type="button" name="button" class='btn btn-primary prevPicture'>&larr;</button>
+        </div>
+        <div class="imageViewer">
+          <img src="/images/shopHockey/home.jpg" class="img-thumbnail projectImage">
+          <img src="/images/shopHockey/category.jpg" class="img-thumbnail projectImage hidden">
+          <img src="/images/shopHockey/search.jpg" class="img-thumbnail projectImage hidden">
+          <img src="/images/shopHockey/cart.jpg" class="img-thumbnail projectImage hidden">
+        </div>
+        <div class='rightSide'>
+          <button type="button" name="button" class='btn btn-primary nextPicture'>&rarr;</button>
+        </div>
+      </div>
+    </div>
   </div>
+
 </main>

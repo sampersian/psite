@@ -7,3 +7,5 @@ function youreUp(who) {
   $('.act').hide();
   $('.'+who).show();
 }
+
+$()
