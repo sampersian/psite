@@ -114,12 +114,21 @@ a {
   width: 80%;
   margin: 10px;
   background-color: rgba(0,0,0,0.5);
+  border: 5px solid white;
+  border-radius: 25px;
 }
 
-.projectName,.projectDescription {
+.projectName {
   width: 100%;
   text-align: center;
 }
+
+.projectDescription {
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
 
 .projectGallery {
   display: flex;
