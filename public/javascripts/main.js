@@ -18,6 +18,6 @@ function changePicture(direction, project) {
   for (let image of projectImages) {
     let imageObject = $(image);
     console.log('this image is hidden: ',imageObject.hasClass('hidden'));
-    console.log($(image));../
+    console.log($(image));
   }
 }
