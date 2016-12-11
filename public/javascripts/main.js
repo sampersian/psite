@@ -7,7 +7,8 @@ function youreUp(who) {
   $('.act').hide();
   $('.'+who).show();
 }
-let a;
+
+
 function changePicture(direction, project) {
   console.log("going to the",direction,"picture for the project",project);
   let projectViewer = $('#'+project+'Viewer');
@@ -17,6 +18,6 @@ function changePicture(direction, project) {
   for (let image of projectImages) {
     let imageObject = $(image);
     console.log('this image is hidden: ',imageObject.hasClass('hidden'));
-    console.log($(image));
+    console.log($(image));../
   }
 }
