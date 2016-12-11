@@ -7,11 +7,27 @@ html {
 body {
   background: none;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  min-height: 5%;
+  margin: 0px;
+}
+
+.nav-item {
+  background-color: black;
+}
+
+.no-margin {
+  margin: 0px;
 }
 
 main {
   padding: 1vw 3vw;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  height: auto;
 }
 
 a {
