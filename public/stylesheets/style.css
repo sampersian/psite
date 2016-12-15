@@ -65,6 +65,8 @@ a {
   margin: 0px auto;
 }
 
+
+
 .myEmail {
   font-size: 2em;
   padding: 0px;
@@ -99,8 +101,9 @@ a {
 }
 
 .act {
-  display: none;
+  display: flex;
   padding: 10px;
+  flex-direction: column;
 }
 
 .act .actName {
@@ -112,6 +115,8 @@ a {
 .act .actHolder {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .act .actHolder .myBioPic {
@@ -125,6 +130,14 @@ a {
 .act .actHolder .actContent pre{
   word-wrap: normal;
   width: auto;
+}
+
+.act .actHolder .actContent h3 {
+  color: maroon;
+}
+
+.myIntroduction {
+  font-size: 16px;
 }
 
 .portfolio {
