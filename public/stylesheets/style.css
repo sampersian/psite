@@ -17,7 +17,13 @@ nav {
 }
 
 .nav-item {
-  background-color: black;
+  background-color: none;
+  text-decoration: underline;
+}
+
+.nav-item:hover {
+  background-color: white;
+  color: black;
 }
 
 .no-margin {
