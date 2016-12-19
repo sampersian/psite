@@ -35,6 +35,19 @@ nav {
   margin: 0px;
 }
 
+.nav-social {
+  float: right;
+}
+
+.min-width-10 {
+  min-width: 10%;
+}
+
+.max-width-90 {
+  max-width: 90%;
+  width: 90%;
+}
+
 main {
   padding: 1vw 3vw;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
